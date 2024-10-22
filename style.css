@@ -36,10 +36,19 @@
   font-weight: 600;
 }
 
+main>section {
+  margin-top: 130px;
+}
+
 /*  Header Styles */
 header {
   flex-direction: column;
   justify-content: center;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 
@@ -52,12 +61,16 @@ header {
 
 .nav-item {
   list-style: none;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .nav-link {
   text-decoration: none;
   font-weight: 500;
+}
+
+.nav-links {
+  gap: 50px;
 }
 
 .brand {
@@ -68,7 +81,7 @@ header {
 /* * Banner Related Style */
 .banner {
   flex-direction: column;
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 0px auto;
   gap: 40px;
 }
@@ -85,10 +98,67 @@ header {
   font-weight: 700;
   margin-bottom: 30px;
 }
-.banner-paragraph{
+
+.banner-paragraph {
   margin-bottom: 30px;
 }
 
 .banner-img {
   width: 100%;
+}
+
+/* * Teams Page style */
+.teams{
+  align-items: center;
+  padding: 100px;
+}
+.teams-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.teams-title{
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.team-spam1{
+  color: black;
+  font-weight: 700;
+
+}
+.team-spam2{
+  color: #FF900E;
+  font-weight: 700;
+
+}
+.teams-about{
+  max-width: 537px;
+  margin-left: 75px;
+}
+.teams-paragraph{
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:576px) {
+
+  /*! HEADER */
+  .banner {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .brand {
+    text-align: center
+  }
+
 }
