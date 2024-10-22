@@ -6,3 +6,89 @@
   font-weight: 400;
   font-style: normal;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*? Shared Styles */
+.displayFlex {
+  display: flex;
+}
+
+.text-gray {
+  color: #424242;
+}
+
+.text-light-gray {
+  color: #727272;
+}
+
+.pri-button {
+  background-color: #FF900E;
+  padding: 20px 25px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/*  Header Styles */
+header {
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* *Navbar Related Styles */
+.navbar {
+  justify-content: space-between;
+  padding: 30px 180px;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.brand {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+/* * Banner Related Style */
+.banner {
+  flex-direction: column;
+  max-width: 1140px;
+  margin: 0px auto;
+  gap: 40px;
+}
+
+.banner-content {
+  max-width: 850px;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner-paragraph{
+  margin-bottom: 30px;
+}
+
+.banner-img {
+  width: 100%;
+}
