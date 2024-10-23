@@ -60,6 +60,12 @@ main {
   margin: 0 auto;
 }
 
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
 
 /* *Navbar Related Styles */
 .navbar {
@@ -222,6 +228,18 @@ main {
   filter: grayscale(100%);
 }
 
+.sponspore-logo img {
+  max-width: 100%;
+}
+
+/* * FOOTER */
+.footer-para {
+  text-align: center;
+  padding: 40px 410px;
+  background-color: #dbdada;
+  border-radius: 8px;
+}
+
 
 @media screen and (max-width:576px) {
 
@@ -276,6 +294,13 @@ main {
     gap: 50px;
   }
 
+  /* ! FOOTER */
+  .footer-para {
+    text-align: center;
+    padding: 30px 8px;
+    margin: 0px 10px;
+  }
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -322,4 +347,11 @@ main {
     margin: 0 auto;
     gap: 50px;
   }
+
+    /* ! FOOTER */
+    .footer-para {
+      text-align: center;
+      padding: 30px 8px;
+      margin: 0px 10px;
+    }
 }
