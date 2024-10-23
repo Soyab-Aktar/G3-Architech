@@ -190,16 +190,26 @@ main {
 @media screen and (min-width:577px) and (max-width:992px) {
 
   /* ! HEADER */
+
   .navbar {
     max-width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 30px 20px;
   }
-  .nav-links{
+
+  .nav-links {
     text-align: center;
     gap: 20px;
   }
 
-
+  /* ! TEAM */
+  .teams {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .teams-img img{
+    max-width: 100%;
+  }
 
 }
