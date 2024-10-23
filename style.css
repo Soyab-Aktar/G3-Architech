@@ -200,6 +200,26 @@ main {
   font-weight: 500;
 }
 
+/* * SPONSPORE */
+
+.sponspore{
+  flex-direction: column;
+  gap: 50px;
+}
+.sponspore-about{
+  flex-direction: column;
+  max-width: 545px;
+  text-align: center;
+  margin: 0 auto;
+  gap: 24px;
+}
+.sponspore-logo{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 155px;
+  filter: grayscale(100%);
+}
+
 
 @media screen and (max-width:576px) {
 
