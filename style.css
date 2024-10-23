@@ -166,11 +166,13 @@ main {
   flex-direction: column;
   gap: 24px;
 }
-.fact-data{
+
+.fact-data {
   display: grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-.data{
+
+.data {
   max-width: 241px;
   height: 241px;
   border: 1px solid #FF900E;
@@ -181,16 +183,19 @@ main {
   padding: 45px 35px 60px 35px;
   gap: 10px;
 }
-.fact-img img{
+
+.fact-img img {
   max-width: 45px;
   height: 45px;
 }
-.fact-data-number{
+
+.fact-data-number {
   font-size: 45px;
   font-weight: 500;
 
 }
-.fact-data-para{
+
+.fact-data-para {
   font-size: 20px;
   font-weight: 500;
 }
@@ -229,6 +234,16 @@ main {
 
   .teams-about {
     text-align: center;
+  }
+
+  /* ! FACT */
+  .fact{
+    text-align: center;
+  }
+  .fact-data{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0px auto;
+    gap: 20px;
   }
 
 }
