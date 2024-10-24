@@ -161,6 +161,63 @@ footer {
   margin-bottom: 30px;
 }
 
+/* * FEATURE page Style */
+.feature {
+  justify-content: space-between;
+}
+
+.feature-about {
+  max-width: 586px;
+  flex-direction: column;
+  gap: 30px;
+  /* margin-right: 54px; */
+}
+
+.feature-title {
+  max-width: 468px;
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+}
+
+.feature-block {
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 42px 30px 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.block-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature-img {
+  max-width: 708px;
+}
+
+.exp {
+  background-color: #FF900E;
+  border: none;
+  padding: 45px 42px;
+  border-radius: 8px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.exp-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+.exp-para {
+  font-size: 1.56rem;
+  font-weight: 600;
+  color: white;
+}
+
+
 /* * FACT page Style */
 .fact {
   flex-direction: column;
@@ -243,6 +300,10 @@ footer {
 
 @media screen and (max-width:576px) {
 
+  body {
+    padding: 10px;
+  }
+
   /*! HEADER */
   .banner {
     flex-direction: column;
@@ -274,6 +335,24 @@ footer {
 
   .teams-about {
     text-align: center;
+  }
+
+  /* ! FEATURE */
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature-img img {
+    max-width: 100%;
+  }
+
+  .exp {
+    margin: 0;
+    margin-top: -80px;
+  }
+
+  .exp-button {
+    justify-content: center;
   }
 
   /* ! FACT */
@@ -329,6 +408,32 @@ footer {
     max-width: 100%;
   }
 
+  /* ! FEATURE */
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature-about {
+    margin: 0 auto;
+  }
+
+  .feature-img img {
+    max-width: 100%;
+  }
+
+  .feature-img {
+    margin: 0 auto;
+  }
+
+  .exp {
+    margin: 0;
+    margin-top: -80px;
+  }
+
+  .exp-button {
+    justify-content: center;
+  }
+
   /* ! FACT */
   .fact-about {
     margin: 0 auto;
@@ -348,10 +453,10 @@ footer {
     gap: 50px;
   }
 
-    /* ! FOOTER */
-    .footer-para {
-      text-align: center;
-      padding: 30px 8px;
-      margin: 0px 10px;
-    }
+  /* ! FOOTER */
+  .footer-para {
+    text-align: center;
+    padding: 30px 8px;
+    margin: 0px 10px;
+  }
 }
